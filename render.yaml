@@ -4,7 +4,7 @@ services:
     autoDeploy: false
     env: image
     image:
-      url: ghcr.io/getzep/zep-cloud:0.17.3 # ghcr.io/getzep/zep-cloud:latest
+      url:  ghcr.io/getzep/zep-cloud:latest
     healthCheckPath: /healthz
     envVars:
       # Disable web UI. WARNING: Do not enable this unless
