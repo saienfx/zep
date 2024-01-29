@@ -24,6 +24,8 @@ services:
           property: hostport
       - key: ZEP_OPENAI_API_KEY
         sync: false
+      - key: SERVICE_PROTOCOL
+        value: "http"
   - type: pserv
     name: zep-nlp
     autoDeploy: false
